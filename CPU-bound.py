@@ -14,7 +14,7 @@ def find_coin():
 
 
 def main():
-    with concurrent.futures.ProcessPoolExecutor(max_workers=2) as executor:
+    with concurrent.futures.ProcessPoolExecutor(max_workers=10) as executor:
         find_coin()
 
 
